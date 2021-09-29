@@ -1,0 +1,118 @@
+* { box-sizing: border-box; }
+html, body {padding:0; margin: 0;}
+
+body {
+    background: #1c334d;
+    color: #fff;
+    font-family: "Open sans";
+    text-shadow: 1px 1px 1px #333;
+}
+.container {
+    width: 960px;
+    margin: auto;
+}
+header {
+    position: relative;
+    top: 50px;
+}
+.lang img {
+    width: 40px;
+}
+.detail {
+    position: absolute;
+    width: 450px;
+    height: 350px;
+    right: 30px;
+    bottom: 0;
+    text-align: right;
+    padding: 40px;
+}
+.logo {
+    display: block;
+    position: relative;
+    margin: auto;
+    top: -90px;
+}
+.online-detail {
+    position: relative;
+    top: 50px;
+    font-weight: 300;
+    color: #ccc;
+    font-style: italic;
+    font-size: 24px;
+}
+a {
+    color: #fff;
+    font-weight: 300;
+}
+.main {
+    position: relative;
+    width: 960px;
+    height: 503px;
+    background: #050608;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0 0 15px #000;
+}
+.corpo {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 550px;
+    background: url(../img/overlay.png) no-repeat bottom, url(../img/hacker.png) no-repeat;
+}
+
+.btn {
+    display: inline-block;
+    position: absolute;
+    bottom: -62px;
+    z-index: -1;
+    background: #fff;
+    right: 240px;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 24px;
+    color: #ba0707;
+    border-radius: 0 0 15px 15px;
+    padding: 20px 40px;
+    text-shadow: none;
+}
+
+.btn:hover {
+    color: #456ad0;
+    padding: 18px 40px;
+}
+
+.btn2 {
+    display: inline-block;
+    position: absolute;
+    bottom: -62px;
+    z-index: -1;
+    background: #fff;
+    right: 10px;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 24px;
+    color: #4ab5b5;
+    border-radius: 0 0 15px 15px;
+    padding: 20px 40px;
+    text-shadow: none;
+}
+
+.btn2:hover {
+    color: #456ad0;
+    padding: 18px 40px;
+}
+
+.video-bg {
+    position: absolute;
+    opacity: 0.1;
+    width: 100%;
+    height: 100%;
+        overflow: hidden;
+}
+.video-bg video {
+    width: 100%;
+    position: absolute;
+}
+
